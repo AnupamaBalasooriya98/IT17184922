@@ -26,15 +26,15 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto text-right">
 
-              <a class="nav-link" href="home.html">
+              <a class="nav-link" href="">
                 <img src="img/home.png" style="height: 30px; width: 30px"> Home
               </a>
 
-              <a class="nav-link" href="aboutUs.html">
+              <a class="nav-link" href="">
                 <img src="img/user.png" style="height: 30px; width: 30px"> About Us
               </a>
 
-              <a class="nav-link" href="contactUs.html">
+              <a class="nav-link" href="">
                 <img src="img/contact.png" style="height: 30px; width: 30px"> Contact Us
               </a>
           </div>
