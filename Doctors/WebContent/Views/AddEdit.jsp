@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="ISO-8859-1">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +11,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Doctors</title>
+    <title>Add or edit doctor</title>
   </head>
   <body>
 
     <!-- navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="home.html" class="navbar-brand nav-link">
+        <a href="Home.html" class="navbar-brand nav-link">
         <img src="img/hospital-logo.jpg" style="height: 50px; width: 50px">   Hospitals</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto text-right">
 
-              <a class="nav-link" href="">
+              <a class="nav-link" href="Home.jsp">
                 <img src="img/home.png" style="height: 30px; width: 30px"> Home
               </a>
 
@@ -42,7 +43,7 @@
     </nav>
 
     <!-- Search a doctor -->
-    <div class="container mt-5">
+    <div class="container mt-3">
       <h3>Find a doctor</h3>
       <div class="row">
         <div class="col-5">
@@ -62,7 +63,7 @@
     </div>
 
     <!-- CRUD operation form -->
-    <div class="container mt-5">
+    <div class="container mt-3">
       <h3>Doctors' profiles</h3>
       <div class="row">
         <div class="col-6">
@@ -134,23 +135,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Doctors table -->
-    <div class="container mt-5">
-      <h3>See doctors</h3>
-      <table class="table" id="tblDoctors">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone</th>
-            <th scope="col">Specialization</th>
-          </tr>
-        </thead>
-      </table>
     </div>
   </body>
 </html>
