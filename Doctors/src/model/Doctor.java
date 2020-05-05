@@ -90,7 +90,7 @@ public class Doctor {
 	}
 	
 	// Update doctor
-	public String update(int id, String name, String email, int phone, String spec){
+	public String update(String id, String name, String email, String phone, String spec){
 		String output = "";
 		
 		try{
