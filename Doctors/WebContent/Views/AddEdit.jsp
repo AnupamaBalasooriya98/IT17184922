@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Add or edit doctor</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="Components/jquery-3.5.1.min.js"></script>
+	<script src="Components/main.js"></script>
   </head>
   <body>
 
@@ -115,16 +119,16 @@
           </div>
           <div class="row mt-5 mb-5">
             <div class="col-3 text-center">
-              <button type="button" class="btn btn-outline-primary" id="btnAdd">ADD</button>
+              <input type="button" id="btnAdd" value="ADD" class="btn btn-outline-primary">
             </div>
             <div class="col-3 text-center">
-              <button type="button" class="btn btn-outline-secondary" id="btnUpdate">UPDATE</button>
+              <input type="button" id="btnAdd" value="UPDATE" class="btn btn-outline-secondary">
             </div>
             <div class="col-3 text-center">
-              <button type="button" class="btn btn-outline-danger" id="btnDelete">DELETE</button>
+              <input type="button" id="btnAdd" value="DELETE" class="btn btn-outline-danger">
             </div>
             <div class="col-3 text-center">
-              <button type="button" class="btn btn-outline-info" id="btnClear">CLEAR</button>
+              <input type="button" id="btnAdd" value="CLEAR" class="btn btn-outline-info">
             </div>
           </div>
         </div>
