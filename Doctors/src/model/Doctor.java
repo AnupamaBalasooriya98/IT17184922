@@ -14,6 +14,8 @@ public class Doctor {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/doctors", "root", "");
+			
+			System.out.println("Successfully coonnected");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +16,7 @@
 <body>
       <!-- navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="Home.html" class="navbar-brand nav-link">
+        <a href="Home.jsp" class="navbar-brand nav-link">
         <img src="img/hospital-logo.jpg" style="height: 40px; width: 40px">   Hospitals</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto text-right">
 
-              <a class="nav-link" href="Home.html">
+              <a class="nav-link" href="Home.jsp">
                 <img src="img/home.png" style="height: 30px; width: 30px"> Home
               </a>
 
@@ -51,7 +53,7 @@
     	<div class="row mt-5 mb-5">
     		<!-- View page -->
     		<div class="col-6">
-    			<a href="ViewDoctors.html">
+    			<a href="ViewDoctors.jsp">
     				<div class="card bg-white text-black">
     					<img src="img/doctor.jpg" class="card-img" style="height: 250px; width: 500px">
     				</div>
@@ -68,7 +70,7 @@
 
     		<!-- AddEdit page -->
     		<div class="col-6">
-    			<a href="AddEdit.html">
+    			<a href="AddEdit.jsp">
     				<div class="card bg-white text-black">
     					<img src="img/reports.png" class="card-img" style="height: 250px; width: 250px">
     				</div>
