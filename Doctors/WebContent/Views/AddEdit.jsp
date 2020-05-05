@@ -49,8 +49,7 @@
         <div class="col-5">
           <form>
             <div class="form-group">
-              <input type="email" class="form-control" id="searchId" 
-                          placeholder="Enter doctor ID">
+              <input type="email" class="form-control" id="searchId" placeholder="Enter doctor ID">
             </div>
           </form>
         </div>
@@ -129,6 +128,7 @@
             </div>
           </div>
         </div>
+  
         <div class="col-6">
           <div class="container text-center">
             <img src="img/18959532-medical-equipment-doodle.jpg" style="width: 300px; height: 300px">
