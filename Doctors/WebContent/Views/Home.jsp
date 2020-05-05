@@ -16,7 +16,7 @@
 <body>
 	<!-- navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="Home.html" class="navbar-brand nav-link">
+        <a href="Home.jsp" class="navbar-brand nav-link">
         <img src="img/hospital-logo.jpg" style="height: 50px; width: 50px">   Hospitals</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
