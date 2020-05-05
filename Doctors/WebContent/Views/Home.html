@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,10 +12,10 @@
 <title>Doctors</title>
 </head>
 <body>
-	<!-- navigation bar -->
+      <!-- navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="Home.jsp" class="navbar-brand nav-link">
-        <img src="img/hospital-logo.jpg" style="height: 50px; width: 50px">   Hospitals</a>
+        <a href="Home.html" class="navbar-brand nav-link">
+        <img src="img/hospital-logo.jpg" style="height: 40px; width: 40px">   Hospitals</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto text-right">
 
-              <a class="nav-link" href="Home.jsp">
+              <a class="nav-link" href="Home.html">
                 <img src="img/home.png" style="height: 30px; width: 30px"> Home
               </a>
 
@@ -41,13 +39,20 @@
         </div>
     </nav>
 
-    <!-- Navigation thriugh pages -->
+    <!-- banner -->
+    <div class="container">
+        <div class="row mt-5">
+            <img src="img/Banner.jpg" style="height: 400px; width: 1150px">
+        </div>
+    </div>
+
+    <!-- Navigation through pages -->
     <div class="container">
     	<div class="row mt-5 mb-5">
     		<!-- View page -->
     		<div class="col-6">
-    			<a href="ViewDoctors.jsp">
-    				<div class="card bg-light text-black">
+    			<a href="ViewDoctors.html">
+    				<div class="card bg-white text-black">
     					<img src="img/doctor.jpg" class="card-img" style="height: 250px; width: 500px">
     				</div>
     				<div class="card-img-overlay">
@@ -63,9 +68,9 @@
 
     		<!-- AddEdit page -->
     		<div class="col-6">
-    			<a href="AddEdit.jsp">
-    				<div class="card bg-light text-black">
-    					<img src="img/hospital.jpeg" class="card-img" style="height: 250px; width: 500px">
+    			<a href="AddEdit.html">
+    				<div class="card bg-white text-black">
+    					<img src="img/reports.png" class="card-img" style="height: 250px; width: 250px">
     				</div>
     				<div class="card-img-overlay">
     					<div class="card-header" style="background: transparent;">
