@@ -89,6 +89,42 @@ public class Doctor {
 		return output;
 	}
 	
+	// Update doctor
+	public String update(int id, String name, String email, int phone, String spec){
+		String output = "";
+		
+		try{
+			Connection con = connection();
+			if (con == null)
+			{
+				return "Error while connecting to the database for updating."; 
+			}
+			// create a prepared statement
+			String query = "update doctable set name=?, email=?, phone=?, spec=? WHERE id=?";
+			
+			PreparedStatement preparedStmt = con.prepareStatement(query);
+			// binding values
+			preparedStmt.setString(1, name);
+			preparedStmt.setString(2, email);
+			preparedStmt.setInt(3, Integer.parseInt(phone));
+			preparedStmt.setString(4, spec);
+			preparedStmt.setInt(5, Integer.parseInt(id));;
+		
+			// execute the statement
+			preparedStmt.execute();
+			con.close();
+			output = "Data Updated";
+		  
+		 }catch (Exception e){
+			 
+			output = "Error while updating.";
+			System.err.println(e.getMessage());
+		 }
+		
+	   return output;
+		
+	}
+	
 	// Remove doctor
 	public String delete(String did) {
 		String output = "";
