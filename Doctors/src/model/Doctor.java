@@ -25,7 +25,7 @@ public class Doctor {
 	}
 	
 	// Insert doctor details
-	public String insert(String dname, String mail, int pno, String spec) {
+	public String insert(String dname, String mail, String phone, String spec) {
 		String output = "";
 		
 		try {
@@ -41,7 +41,7 @@ public class Doctor {
 			
 			pstmt.setString(1, dname);
 			pstmt.setString(2, mail);
-			pstmt.setInt(3, pno);
+			pstmt.setString(3, phone);
 			pstmt.setString(4, spec);
 			
 			con.close();
