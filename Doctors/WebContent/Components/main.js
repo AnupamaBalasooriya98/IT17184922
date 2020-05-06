@@ -55,3 +55,9 @@ function getDoctorCard(name, phone) {
 }
 
 // delete button
+$(document).on("click", ".remove", function(event) {
+	$(this).closest(".doctor").remove();
+
+	$("#alertSuccess").text("Removed successfully.");
+	$("#alertSuccess").show();
+});
